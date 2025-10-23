@@ -54,6 +54,12 @@ main {
     /*ToDo: Make this a flexible container; 
     You can find the following helpful: display, flex-wrap, width, min-height, height
     See lecture slides*/
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: fit-content;
+    height: max-content;
+    justify-content: center;
 }
 
 section, aside {
@@ -66,11 +72,16 @@ aside {
     /*ToDo: Set width.ToDo: For fluid layouts, use min-width, max-width, and set to relative 
    values, like 25% of the page.*/ 
     background-color: #deded8;
+    min-width: 25%;
+    max-width: 100%;
 }
 
 section {
     /*ToDo: Set width. For fluid layouts, use min-width, max-width, and set to relative 
    values, like 75% of the page.*/
+   /*ToDo2: Set width better along with aside's width cuz its kinda weird*/
+   min-width: fit-content;
+   max-width: 75%;
 }
 
 /*Styling for search in aside*/
