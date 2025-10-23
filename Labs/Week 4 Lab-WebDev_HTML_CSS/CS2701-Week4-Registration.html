@@ -14,6 +14,10 @@
                        The css class of the menu is "navlist"
                        Check lecture slides about lists, an example of a more basic menu, and CSS class selector-->
             <ul class="navlist">
+                <li> Home </li>
+                <li> Register </li>
+                <li> Login </li>
+                <li> Help </li>
             </ul>
          </nav>
         <main>
@@ -33,13 +37,33 @@
                            and how to create a button that would react to a click Event
                         -->
                     <!-- Example given for user type checkboxes-->
-                    
+                    <label for="Name">Name:</label><br>
+                    <input type="text" id="Name" name="Name"><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email"><br><br>
+
+                    <label for="password">Password:</label><br>
+                    <input type="text" id="password" name="password"><br><br>
+
+                    <label for="repassword">Re-enter Password:</label><br>
+                    <input type="text" id="repassword" name="repassword"><br><br>
+
                     <input type="checkbox" id="buyer" name="buyer" value="buyer">
                     <label for="buyer">I want to buy produce directly from allotment owners.</label><br>
-                    <input type="checkbox" id="seller" name="seller" value="seller">
-                    <label for="seller">I want to sell produce from my allotment.</label><br><br>
 
-                    <br><br>
+                    <input type="checkbox" id="seller" name="seller" value="seller">
+                    <label for="seller">I want to sell produce from my allotment.</label><br><br><br>
+
+                    <input type="checkbox" id="agree" name="agree" value="agree">
+                    <label for="agree">I agree to the 
+                        <a href="https://www.google.com/search?q=terms+of+Use">Terms of Use</a> 
+                        and 
+                        <a href="https://www.google.com/search?q=Privacy+Policy">Privacy Policy</a></label><br><br>
+
+                    <input type="button" id="Register" name="Register" value="Register">
+                    <a href="https://www.google.com/search?q=Learn+More"> Learn More</a>
+                    
                 </form>
                 <div class="center" id="hiddenSection">
                     <p id="hiddenParagraph"></p>
